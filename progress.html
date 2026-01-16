@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Progress</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/app.js" defer></script>
+</head>
+<body>
+<nav class="nav small"><a href="index.html">← Home</a></nav>
+<h2 class="center fade-in">My Impact</h2>
+
+<div class="progress-card slide-up">
+  <p>Total Donations</p>
+  <h1 id="count">0</h1>
+  <div class="tree" id="tree">🌱</div>
+  <p class="muted">Your tree grows with every donation</p>
+</div>
+<div class="card hover"><span><h2>Upload Certificates<h2></span>
+  <a href="https://forms.gle/VktadfkT5MBXFWmg6"
+     target="_blank"
+     class="btn small"
+     onclick="openDonate('Upload ⬆️')">
+    Upload ⬆️
+  </a>
+  <button class="btn confirm-btn" onclick="confirmDonation()">
+  ✅ Confirm Donation
+</button>
+<p class="muted" style="margin-top:15px;">
+  <h3>
+  Please upload the certificate before confirming.</h3>
+</p>
+
+</div>
+</body>
+</html>
